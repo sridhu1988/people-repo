@@ -11,9 +11,7 @@ This demo is build with Java 1.8 and Maven 3.
 The above application is a maven application and can be started just by command "mvn clean install"and then go to target folder and run the command "java -jar people-example.jar"
 
 # About the Database
-The application uses MySQL DB for running. You can feel free to use in memory DB like H2 to run the code. Simply comment the application.resources property fileand add h2 to the pom.xml like below:
-
- <dependency><groupId>com.h2database</groupId><artifactId>h2</artifactId></dependency>
+The application uses MySQL DB for running. You can feel free to use in memory DB like H2 to run the code. Simply comment the application.resources property fileand add h2 to the pom.xml
  
 # Functionalities
 The application will run at http://localhost:8080. If you are using spring boot to run the application, your automatic tomcat instance will kick in and the application can be accessed directly. (http://localhost:8080/people). If you deploy the jar/war file to a server, then you can access it using the URL (http://localhost:8080/people-example/people).
